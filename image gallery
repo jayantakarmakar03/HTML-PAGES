@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="100"/>
+    <title>image gallery</title>
+    <style>
+        .gallery
+        {
+            border: 5px solid #3e9b0c;
+            border-radius: 15px;
+            width: 900px;
+            margin: auto;
+            
+        }
+        .gallery img
+        {
+            height:150px;
+            width:200px;
+            margin: auto;
+            margin-top: 5px;
+            padding: 2px;
+
+        }
+        h1
+        {
+        background-color: #2f7e05;
+         border: 4px solid #0dff05;
+         padding: 20px;
+         text-decoration:underline;
+         text-transform: uppercase;
+         text-align: center;
+            word-spacing: 9px;
+            border-radius: 15px;
+            color:white;
+            font-style: italic;
+        }
+        .gallery img
+        {
+            border:6px solid white;
+            border-radius: 20px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<h1>Image gallery</h1>
+
+ <div class="gallery">
+  <a href="coffee1.jpg" >  <img src="coffee1.jpg"></a>
+  <a href="coffee2.jpg" >   <img src="coffee2.jpg"></a>
+  <a href="coffee3.jpg" >   <img src="coffee3.jpg"></a>
+  <a href="coffee4.jpg" >   <img src="coffee4.jpg"></a>
+  <a href="coffee5.jpg" >   <img src="coffee5.jpg"></a>
+  <a href="coffee11.jpg" >   <img src="coffee11.jpg"></a>
+  <a href="coffee12.jpg" >   <img src="coffee12.jpg"></a>
+  <a href="coffee13.jpg" >   <img src="coffee13.jpg"></a>
+  <a href="coffee14.jpg" >   <img src="coffee14.jpg"></a>
+  <a href="img1.jpg" >   <img src="img1.jpg"></a>
+  <a href="img2.jpg" >   <img src="img2.jpg"></a>
+  <a href="img3.jpg" >   <img src="img3.jpg"></a>
+  <a href="img4.jpg" >   <img src="img4.jpg"></a>
+  <a href="img5.jpg" >   <img src="img5.jpg"></a>
+  <a href="img6.jpg" >   <img src="img6.jpg"></a>
+  <a href="img7.jpg" >   <img src="img7.jpg"></a>
+  <a href="img8.jpg" >   <img src="img8.jpg"></a>
+
+
+ </div>
+
+</body>
+</html>
